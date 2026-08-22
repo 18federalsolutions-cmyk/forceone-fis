@@ -44,3 +44,9 @@
 .capability-item:before{content:"";position:absolute;display:block;left:0;top:28px;bottom:28px;width:5px;border-radius:3px;background:linear-gradient(180deg,var(--blue),#37a7d4)}
 .capability-number{display:none}
 @media(max-width:680px){.capability-item{grid-template-columns:1fr;padding-left:19px}.capability-item:before{top:24px;bottom:24px;width:4px}}
+.member-credentials small{max-width:180px;line-height:1.35}
+@media(max-width:1000px){.credential:nth-child(3),.credential:nth-child(5){display:none}.credential:nth-child(4){display:flex}}
+@media(max-width:760px){.member-credentials{grid-column:1/-1}}
+.key-card.line-accent{position:relative;border-left:0;padding-left:35px}
+.key-card.line-accent:before{content:"";position:absolute;left:18px;top:24px;bottom:24px;width:5px;border-radius:3px;background:linear-gradient(180deg,var(--blue),#37a7d4)}
+.key-card.line-accent .card-icon{display:none}
