@@ -38,3 +38,9 @@
 .site-header .brand-copy small{font-size:10px;font-weight:800;letter-spacing:1.45px;color:var(--navy);text-align:center;border-top:2px solid var(--blue);padding-top:5px;margin-top:6px}
 @media(max-width:760px){.site-header .brand-copy small{font-size:8px;letter-spacing:1px;padding-top:4px;margin-top:4px}}
 @media(max-width:420px){.site-header .brand-copy small{display:block}}
+
+/* Full-height capability accents replace non-sequential numbers */
+.capability-item{position:relative;grid-template-columns:1fr;padding-left:23px}
+.capability-item:before{content:"";position:absolute;display:block;left:0;top:28px;bottom:28px;width:5px;border-radius:3px;background:linear-gradient(180deg,var(--blue),#37a7d4)}
+.capability-number{display:none}
+@media(max-width:680px){.capability-item{grid-template-columns:1fr;padding-left:19px}.capability-item:before{top:24px;bottom:24px;width:4px}}
