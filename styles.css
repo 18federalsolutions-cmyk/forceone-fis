@@ -20,7 +20,7 @@
 .error-page{min-height:100vh;display:grid;place-items:center;padding:30px;background:radial-gradient(circle at 78% 25%,rgba(58,151,230,.25),transparent 28%),linear-gradient(135deg,#edf4fa,#fff)}
 .error-card{width:min(620px,100%);padding:48px;border-radius:14px;background:#fff;box-shadow:var(--shadow)}
 .error-card .brand{margin-bottom:44px}.error-card h1{font-size:clamp(36px,6vw,54px);line-height:1.08;color:var(--navy);margin-bottom:16px}.error-card>p:not(.eyebrow){font-size:18px;color:var(--muted);margin-bottom:28px}
-.fis-credential{gap:12px}.fis-logo{width:44px;height:44px;object-fit:contain;filter:drop-shadow(0 2px 5px rgba(0,0,0,.16))}.fis-credential p{min-width:0}
+.fis-credential{gap:12px}.credential img.fis-logo{display:block;width:40px!important;height:40px!important;min-width:40px;max-width:40px;object-fit:contain;filter:drop-shadow(0 2px 5px rgba(0,0,0,.16))}.fis-credential p{min-width:0}
 .mini-mark{width:46px;height:46px;min-width:46px;flex:0 0 46px;aspect-ratio:1;border-radius:50%;line-height:1;padding:0}
 
 /* Capability section redesign */
